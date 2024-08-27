@@ -1,4 +1,5 @@
 import SignInForm from "@/community/molecules/SignInForm";
+import GoogleSignInButton from "@/enterprise/atoms/GoogleSignInButton";
 
 
 export default function SignInWidget() {
@@ -10,6 +11,7 @@ export default function SignInWidget() {
   return (
     <div>
       <SignInForm click={signInButtonClick}/>
+      <GoogleSignInButton/>
     </div>
   );
 }
